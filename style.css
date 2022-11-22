@@ -1,0 +1,197 @@
+
+
+header{
+    height: auto;
+    width: 700px;
+    color: aliceblue;
+    background-color: black;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    position: relative;
+    outline-style:groove;
+    border: solid black;
+    z-index: 1;
+    overflow: hidden;
+}
+header img{
+    height: 15vh;
+    box-shadow: 5%;
+}
+h{
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    left: 220px;
+}
+li{
+    text-align: center;
+    display: inline;
+    position: relative;
+    bottom: 30PX;
+    right: 50px;
+    font: size 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li:hover{
+    background-color: rgb(90, 10, 10);
+    color: rgb(98, 172, 247);
+}
+#div1{
+    position:relative;
+    padding-top:100px;
+    height:auto;
+    max-width: 700px;
+    border-style: ridge;
+    background-image: url("https://cdn.shopify.com/s/files/1/2098/2901/products/DSC03492-3_530x@2x.jpg?v=1629217678");
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+#intro1{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align:left;
+    color: rgba(147, 136, 141, 0.858);
+    position: relative;
+    left: 30px;
+    bottom: 80px;
+}
+#intro2{
+    color: rgb(235, 220, 221);
+    position: relative;
+    left: 30px;
+    bottom: 50px;
+}
+#para1{
+    position: relative;
+    top: 10px;
+    left: 230px;
+}
+.quote{
+    color: rgb(216, 190, 153);
+    position: relative;
+    bottom: 110px;
+    text-align: center;
+}
+/* End of the first dive and the begining of a section */
+
+code{
+    color: aliceblue;
+    background-color: black;
+
+}
+
+#form1{
+    height:auto;
+    width: 200px;
+    margin: auto;
+    color: beige;
+    background-color: black;
+    position: relative;
+    right: 220px;
+    opacity: 0.5;
+}
+section{
+    border-style: ridge;
+    height: auto;
+    width: 700px;
+    color: beige;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    padding-top: 10px;
+    outline:inset;
+}
+footer{
+    height: auto;
+    width: 700px;
+    color: beige;
+    background-color: black;
+    text-align: center;
+}
+
+#para2{
+    height: 30x;
+    width: 60px;
+    position: relative;
+    bottom: 20pxx;
+    left: 90px;
+    background-color: red !important;
+    border-radius: 5%;
+}
+table, th, td {
+    border: 1px solid;
+    display:inline-flexbox;
+  }
+table:hover{
+    color: yellowgreen;
+}
+iframe{
+    position: relative;
+    bottom: 210px;
+    left: 60px;
+}
+#a5{
+    position: relative;
+    bottom: 220px;
+    left: 55px;
+}
+a:hover{
+    background-color: rgb(53, 26, 134);
+    color: brown;
+}
+  
+#div2{
+    color:aliceblue ;
+    background-color: black;
+}
+
+[class =btn] {
+  color: rgb(165, 21, 29);
+  background-color: cadetblue;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  #form2{
+    height:auto;
+    width: 200px;
+    margin: auto;
+    color: beige;
+    background-color: black;
+    position: relative;
+    right: 220px;
+    bottom: 200px;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+  }
+ 
+  @font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+  
