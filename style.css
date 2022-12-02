@@ -3,7 +3,7 @@
 header{
     height: auto;
     width: 700px;
-    color: aliceblue;
+    color: rgb(21, 22, 24);
     background-color: black;
     text-decoration: none;
     list-style: none;
@@ -62,10 +62,11 @@ li:hover{
     left: 30px;
     bottom: 50px;
 }
-#para1{
+#para{
     position: relative;
     top: 10px;
     left: 230px;
+
 }
 .quote{
     color: rgb(216, 190, 153);
@@ -101,8 +102,10 @@ section{
     margin: auto;
     padding-top: 10px;
     outline:inset;
+    /* background-image: url("https://guitarspace.org/wp-content/uploads/2022/07/HP-02.png"); */
 }
-footer{
+
+#footer1{
     height: auto;
     width: 700px;
     color: beige;
@@ -128,7 +131,7 @@ table:hover{
 }
 iframe{
     position: relative;
-    bottom: 210px;
+    bottom: 220px;
     left: 60px;
 }
 #a5{
@@ -136,10 +139,7 @@ iframe{
     bottom: 220px;
     left: 55px;
 }
-a:hover{
-    background-color: rgb(53, 26, 134);
-    color: brown;
-}
+
   
 #div2{
     color:aliceblue ;
@@ -195,3 +195,117 @@ a:hover{
     src: url(sansation_light.woff);
   }
   
+  #panel, #flip {
+    position: relative;
+    bottom: 600px;
+    left: 350px;
+    text-align: center;
+    background-color: #87b30e;
+    border: solid 1px #c3c3c3;
+
+  }
+  #panel {
+    padding: 10px;
+    display: none;
+    height: 100px;
+    width: 180px;
+}
+#flip{
+    width: 200px;
+}
+.fadein{
+    position: relative;
+    left: 400px;
+    bottom: 400px;
+}
+.fadeout{
+    position: relative;
+    left: 335px;
+    bottom: 360px;
+}
+#stop{
+    position: relative;
+    left: 100px;
+    bottom: 620px;
+}
+.hidebtn{
+    position: relative;
+    bottom: 550px;
+    left: 320px;
+}
+.showbtn{
+    position: relative;
+    bottom: 520px;
+    left: 270px;
+}
+.startanimi{
+    position: relative;
+    right: 230px; 
+}
+.pOJUa {
+    position: relative;
+    display: grid;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    margin: 15px 0;
+    color: #333333;
+    font-size: 16px;
+    background-color: #171111;
+    border: 1px solid rgb(13, 12, 12);
+    border-radius: 5px;
+    grid-gap: 6%;
+    grid-template-areas: "image body";
+    grid-template-columns: minmax(175px,1fr) 4fr;
+}
+#div3{
+    background-color: #171111;
+    text-align: center;
+}
+#footer2{
+    height: auto;
+    width: 600px;
+    color: beige;
+    background-color: black;
+    text-align: center;
+}
+
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: "Glyphicons Halflings";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+#a9{
+    position: relative;
+    top: 60px;
+    background-color: #52585e;
+}
+#a9:hover{
+    color: rgb(194, 51, 51);
+}
+#a10{
+    position: relative;
+    top: 60px;
+    background-color: #5d6062;
+}
+#a10:hover{
+    color: rgb(173, 38, 38);
+}
+.media{
+    text-align: left;
+}
+
+#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+#section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+#section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+#section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+
+
+
